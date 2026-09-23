@@ -19,5 +19,5 @@
 #meteorites h2,
 #carbon-cycling h2,
 #aerosols h2 {
-  font-size: clamp(1.6rem, 2.8vw, 2.25rem);
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
 }
