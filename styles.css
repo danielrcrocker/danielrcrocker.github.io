@@ -21,3 +21,14 @@
 #aerosols h2 {
   font-size: clamp(1.35rem, 2.2vw, 1.75rem);
 }
+
+.pub-group-title {
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  margin: 56px 0 0;
+}
+.pub-group-title:first-child {
+  margin-top: 0;
+}
+.publication-list + .button-row {
+  margin-top: 40px;
+}
