@@ -42,6 +42,18 @@
 }
 
 #meteorites .research-figure {
-  width: 70%;
   margin: 1.5rem 0 0;
+}
+#meteorites .research-figure img {
+  width: 150px;
+  max-width: 100%;
+}
+
+@media (min-width: 821px) {
+  #aerosols.two-col,
+  #carbon-cycling.two-col,
+  #meteorites.two-col {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
 }
