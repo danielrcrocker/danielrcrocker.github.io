@@ -48,7 +48,7 @@
   margin: 0;
 }
 .card-figure img {
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/9;
   object-fit: cover;
 }
 .card-figure figcaption {
@@ -81,4 +81,9 @@ a.research-card:hover h3 {
 }
 #aerosols.section, #carbon-cycling.section, #meteorites.section {
   padding: 48px 0;
+}
+
+.card-image {
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
