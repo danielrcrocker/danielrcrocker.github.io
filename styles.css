@@ -65,3 +65,16 @@ h1.page-title-sm {
 h1.hero-name {
   font-size: clamp(1.75rem, 3.5vw, 2.85rem);
 }
+
+.card-figure {
+  margin: 0;
+}
+.card-figure img {
+  aspect-ratio: 16/10;
+  object-fit: cover;
+}
+.card-figure figcaption {
+  padding: 8px 24px 0;
+  font-size: .8rem;
+  color: var(--muted);
+}
