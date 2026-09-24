@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+  <title id="t">Organic aerosol life cycle</title>
+  <desc id="d">Organic aerosols are emitted from the ocean, vegetation and industry, grow and age as atmospheric oxidants such as OH and ozone react with them, and then affect climate by scattering sunlight and seeding cloud droplets.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe6f5"/>
+      <stop offset="1" stop-color="#eef6fb"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f8fc4"/>
+      <stop offset="1" stop-color="#2a6a99"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1f5a6e"/>
+    </marker>
+    <marker id="ray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#e6a100"/>
+    </marker>
+  </defs>
+
+  <!-- sky and ground -->
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <path d="M0 430 L800 430 L800 500 L0 500 Z" fill="#8fb36b"/>
+  <path d="M0 418 Q25 408 50 418 T100 418 T120 418 L120 500 L0 500 Z" fill="url(#sea)"/>
+
+  <!-- stage dividers -->
+  <g stroke="#1f5a6e" stroke-opacity=".18" stroke-width="2" stroke-dasharray="6 8">
+    <line x1="268" y1="70" x2="268" y2="400"/>
+    <line x1="532" y1="70" x2="532" y2="400"/>
+  </g>
+
+  <!-- stage labels -->
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="36" fill="#17202a" text-anchor="middle">
+    <text x="134" y="48">Emissions</text>
+    <text x="400" y="48">Oxidation</text>
+    <text x="666" y="48">Climate</text>
+  </g>
+
+  <!-- ===== EMISSIONS ===== -->
+  <!-- sea spray -->
+  <g fill="#ffffff" stroke="#3f8fc4" stroke-width="1.5">
+    <circle cx="48" cy="392" r="5"/>
+    <circle cx="66" cy="372" r="4"/>
+    <circle cx="40" cy="356" r="3.5"/>
+    <circle cx="82" cy="394" r="4"/>
+  </g>
+  <!-- tree -->
+  <rect x="150" y="360" width="12" height="70" fill="#7a5230"/>
+  <circle cx="156" cy="340" r="34" fill="#3f7d3a"/>
+  <circle cx="134" cy="360" r="22" fill="#4b8f45"/>
+  <circle cx="178" cy="358" r="22" fill="#4b8f45"/>
+  <!-- factory -->
+  <rect x="196" y="378" width="56" height="52" fill="#6b7580"/>
+  <rect x="226" y="330" width="14" height="50" fill="#56606a"/>
+  <g fill="#9aa3ab" opacity=".8">
+    <circle cx="236" cy="316" r="10"/>
+    <circle cx="246" cy="298" r="12"/>
+    <circle cx="258" cy="280" r="13"/>
+  </g>
+  <!-- freshly emitted particles rising -->
+  <g fill="#8a5a2b">
+    <circle cx="70" cy="320" r="5"/>
+    <circle cx="112" cy="284" r="5"/>
+    <circle cx="160" cy="276" r="5.5"/>
+    <circle cx="96" cy="236" r="5"/>
+    <circle cx="200" cy="244" r="5"/>
+    <circle cx="146" cy="206" r="5.5"/>
+  </g>
+
+  <!-- transport arrow -->
+  <path d="M150 170 C 250 110, 330 110, 400 150" fill="none" stroke="#1f5a6e" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- ===== OXIDATION ===== -->
+  <!-- oxidants -->
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="30" fill="#b8322a">
+    <text x="306" y="236">OH</text>
+    <text x="448" y="206">O<tspan font-size="18" dy="6">3</tspan></text>
+    <text x="330" y="360">NO<tspan font-size="18" dy="6">3</tspan></text>
+  </g>
+  <g stroke="#b8322a" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M350 230 L 372 250"/>
+    <path d="M458 214 L 440 238"/>
+    <path d="M384 338 L 400 318"/>
+  </g>
+  <!-- particles growing and aging, small to large -->
+  <circle cx="330" cy="290" r="9" fill="#8a5a2b"/>
+  <circle cx="392" cy="280" r="15" fill="#b0743a"/>
+  <circle cx="470" cy="270" r="22" fill="#d49a52"/>
+  <!-- added oxygen dots on the aged particle -->
+  <g fill="#b8322a">
+    <circle cx="462" cy="258" r="3.5"/>
+    <circle cx="480" cy="266" r="3.5"/>
+    <circle cx="466" cy="282" r="3.5"/>
+    <circle cx="398" cy="276" r="3"/>
+  </g>
+  <path d="M344 300 L 368 296" stroke="#1f5a6e" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M412 290 L 440 286" stroke="#1f5a6e" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- transport arrow -->
+  <path d="M470 330 C 520 380, 560 360, 600 320" fill="none" stroke="#1f5a6e" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- ===== CLIMATE ===== -->
+  <!-- sun -->
+  <circle cx="742" cy="104" r="30" fill="#f5b700"/>
+  <g stroke="#f5b700" stroke-width="4" stroke-linecap="round">
+    <line x1="742" y1="60" x2="742" y2="50"/>
+    <line x1="786" y1="104" x2="796" y2="104"/>
+    <line x1="773" y1="73" x2="780" y2="66"/>
+    <line x1="711" y1="73" x2="704" y2="66"/>
+    <line x1="773" y1="135" x2="780" y2="142"/>
+  </g>
+  <!-- sunlight scattered back to space by a particle -->
+  <circle cx="620" cy="190" r="16" fill="#d49a52"/>
+  <path d="M712 124 L 638 180" stroke="#e6a100" stroke-width="3.5" marker-end="url(#ray)"/>
+  <path d="M606 176 L 566 110" stroke="#e6a100" stroke-width="3.5" marker-end="url(#ray)"/>
+  <!-- cloud with droplets forming on particles -->
+  <g fill="#ffffff">
+    <circle cx="624" cy="306" r="26"/>
+    <circle cx="664" cy="288" r="36"/>
+    <circle cx="706" cy="306" r="26"/>
+    <rect x="598" y="306" width="134" height="26" rx="13"/>
+  </g>
+  <g fill="#6fa8d6">
+    <circle cx="628" cy="352" r="6"/>
+    <circle cx="660" cy="366" r="6"/>
+    <circle cx="694" cy="352" r="6"/>
+  </g>
+  <g fill="#d49a52">
+    <circle cx="628" cy="352" r="2.5"/>
+    <circle cx="660" cy="366" r="2.5"/>
+    <circle cx="694" cy="352" r="2.5"/>
+  </g>
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="27" fill="#17202a" text-anchor="middle">
+    <text x="600" y="238">scatter light</text>
+    <text x="664" y="410">seed clouds</text>
+  </g>
+</svg>
