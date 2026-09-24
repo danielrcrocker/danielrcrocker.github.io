@@ -82,3 +82,7 @@ a.research-card:hover h3 {
 #aerosols.section, #carbon-cycling.section, #meteorites.section {
   padding: 48px 0;
 }
+
+#aerosols .research-figure {
+  margin: 1.5rem 0 0;
+}
