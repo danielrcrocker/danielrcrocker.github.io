@@ -78,3 +78,7 @@ h1.hero-name {
   font-size: .8rem;
   color: var(--muted);
 }
+
+h1.page-title-half {
+  font-size: clamp(1.75rem, 3.5vw, 2.85rem);
+}
