@@ -48,7 +48,7 @@
   margin: 0;
 }
 .card-figure img {
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/9;
   object-fit: cover;
 }
 .card-figure figcaption {
