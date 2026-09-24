@@ -100,3 +100,10 @@ a.research-card:hover h3 {
 #aerosols, #carbon-cycling, #meteorites {
   scroll-margin-top: 90px;
 }
+
+h1.page-title-quarter {
+  font-size: clamp(1.25rem, 1.8vw, 1.45rem);
+}
+h2.contact-name {
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+}
