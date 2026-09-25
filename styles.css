@@ -29,15 +29,15 @@
 }
 
 #meteorites .research-figure {
-  max-width: 300px;
+  max-width: 315px;
   margin: 1.5rem auto 0;
 }
 #meteorites .research-figure img {
-  width: 300px;
+  width: 315px;
   max-width: 100%;
 }
 #meteorites .research-figure figcaption {
-  max-width: 300px;
+  max-width: 315px;
   margin-top: 10px;
   font-size: .85rem;
   line-height: 1.45;
