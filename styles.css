@@ -23,6 +23,7 @@
 .video-card { overflow: hidden; border-radius: var(--radius); background: #000; box-shadow: var(--shadow); }
 .video-card video { display: block; width: 100%; height: auto; }
 
+#aerosols .research-figure,
 #carbon-cycling .research-figure {
   margin: 1.5rem 0 0;
 }
