@@ -35,6 +35,13 @@
   width: 300px;
   max-width: 100%;
 }
+#meteorites .research-figure figcaption {
+  max-width: 300px;
+  margin-top: 10px;
+  font-size: .85rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
 
 @media (min-width: 821px) {
   #aerosols.two-col,
