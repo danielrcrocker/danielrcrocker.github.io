@@ -108,3 +108,8 @@ main p.eyebrow,
 .contact-list p {
   text-align: left;
 }
+
+/* Keep hyphenated words (e.g. "surface-atmosphere") on one line */
+.nowrap {
+  white-space: nowrap;
+}
