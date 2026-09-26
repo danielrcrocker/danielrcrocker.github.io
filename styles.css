@@ -104,6 +104,7 @@ main p,
   hyphens: manual;
 }
 main p.eyebrow,
+main p.lead,
 .publication p,
 .contact-list p {
   text-align: left;
