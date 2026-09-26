@@ -96,3 +96,16 @@ a.research-card:hover h3 {
   aspect-ratio: 16/9;
   object-fit: cover;
 }
+
+/* Justify body text; eyebrows, citations and contact details stay left-aligned */
+main p,
+.research-figure figcaption {
+  text-align: justify;
+  hyphens: auto;
+}
+main p.eyebrow,
+.publication p,
+.contact-list p {
+  text-align: left;
+  hyphens: manual;
+}
